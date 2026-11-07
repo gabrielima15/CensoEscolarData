@@ -3,3 +3,4 @@
 uv.lock
 csv_to_json.py
 pyproject.toml
+.env
