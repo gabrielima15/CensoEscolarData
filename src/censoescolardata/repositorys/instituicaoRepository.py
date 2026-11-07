@@ -5,6 +5,7 @@ from helpers.database import get_connection
 
 instituicaoEnsino_schema = InstituicaoEnsinoSchema()
 
+
 def row_to_instituicaoEnsino(row):
     return InstituicaoEnsino(
         id=row[0],
