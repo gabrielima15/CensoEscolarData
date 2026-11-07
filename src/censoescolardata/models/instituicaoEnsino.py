@@ -3,6 +3,7 @@ from marshmallow import Schema, fields,validate
 class InstituicaoEnsino():
     
     def __init__(
+
         self,
         id,
         co_entidade,
